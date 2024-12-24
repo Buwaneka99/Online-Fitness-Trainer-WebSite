@@ -9,7 +9,17 @@ The frontend of MLB-FITNESS is built using **HTML**, **CSS**, and **JavaScript**
 
 ---
 
+## Features
+- **User Registration and Login**: Users can register, log in, and manage their accounts. Premium memberships unlock additional features.
+- **Trainer Dashboard**: Trainers can add workout courses, upload videos, and manage their profiles.
+- **Admin Panel**: Admins can add and manage trainers, monitor user payments, and oversee system activities.
+- **Premium Membership**: Users can purchase premium packages for more advanced features and secure payment options.
+- **Feedback System**: Users can submit feedback about their experience, report issues, or provide suggestions.
+
+---
+  
 ## Table of Contents
+
 ```
 MPBFitness/                              
  |---Database/
@@ -46,40 +56,40 @@ git clone https://github.com/Buwaneka99/Online-Fitness-Trainer-WebSite.git
 
 ### Step 4: Database Setup
 1. Open **phpMyAdmin** in your browser:
-```
-http://localhost/phpmyadmin
-```
-2. Create a new database named **Online_Fitness_Trainer**:
-```
-CREATE DATABASE Online_Fitness_Trainer;
-```
+     ```
+     http://localhost/phpmyadmin
+     ```
+2. Create a new database named `Online_Fitness_Trainer`:
+     ```sql
+     CREATE DATABASE Online_Fitness_Trainer;
+     ```
 3. Import the database schema:
-   - Go to the **Import** tab in phpMyAdmin.
-   - Select the **Online_Fitness_Trainer.sql** file located in the **Database** directory of the cloned repository.
-   - Click **Go** to import the tables.
+   - Go to the `Import` tab in phpMyAdmin.
+   - Select the `Online_Fitness_Trainer.sql` file located in the `Database` directory of the cloned repository.
+   - Click `Go` to import the tables.
+     
+### Step 5: Configure Database Connection
+1. Open the `connection.php` file in the `Main` folder and update:
+     ```php
+     $servername = "localhost";
+     $username = "root";
+     $password = "";
+     $database = "Online_Fitness_Trainer";
+     ```
+2. Update the `connect.php` file in the `Admin` folder:
+     ```php
+     $con = new mysqli('localhost', 'root', '', 'Online_Fitness_Trainer');
+     ```
 
-4. Configure Database Connection:
-   - Open the **connection.php** file in the **Main** folder and update:
-```
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "Online_Fitness_Trainer";
-```
-   - Update the **connect.php** file in the **Admin** folder:
-```
-$con = new mysqli('localhost', 'root', '', 'Online_Fitness_Trainer');
-```
-
-### Step 5: Deploy the Application
-1. Move the project folder to the **htdocs** directory of your XAMPP installation:
-```
-C:/xampp/htdocs/mlbfitness
-```
+### Step 6: Deploy the Application
+1. Move the project folder to the `htdocs` directory of your XAMPP installation:
+     ```
+     C:/xampp/htdocs/mlbfitness
+     ```
 2. Open your browser and navigate to:
-```
-http://localhost/mlbfitness
-```
+     ```
+     http://localhost/mlbfitness
+     ```
 
 ---
 
@@ -104,15 +114,6 @@ http://localhost/mlbfitness
 5. **Provide Feedback**:
    - Go to the **Feedback Page**.
    - Enter your feedback and submit it.
-
----
-
-## Features
-- **User Registration and Login**: Users can register, log in, and manage their accounts. Premium memberships unlock additional features.
-- **Trainer Dashboard**: Trainers can add workout courses, upload videos, and manage their profiles.
-- **Admin Panel**: Admins can add and manage trainers, monitor user payments, and oversee system activities.
-- **Premium Membership**: Users can purchase premium packages for more advanced features and secure payment options.
-- **Feedback System**: Users can submit feedback about their experience, report issues, or provide suggestions.
 
 ---
 
