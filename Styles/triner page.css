@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header2 {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button#sign-out {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar {
+    width: 20%;
+    text-align: center;
+}
+
+.calendar-nav {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#current-month {
+    font-size: 1.5em;
+}
+
+.schedule {
+    width: 65%;
+    padding: 10px;
+}
+
+table {
+    width: 80%;
+}
+
+th, td {
+    padding: 8px;
+}
+
+th {
+    background: #333;
+    color: white;
+}
+
+td {
+    border: 1px solid #ddd;
+}
+
+td:hover {
+    background-color: #f5f5f5;
+}
+
+.bottom-buttons {
+    margin: 20px 0;
+    text-align: center;
+}
+
+button#upload-videos {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* Your existing CSS */
+
+.weekly-schedule {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.weekly-schedule h2 {
+    color: #333;
+}
+
+.weekly-schedule table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.weekly-schedule th, .weekly-schedule td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.weekly-schedule th {
+    background: #333;
+    color: white;
+}
+
+.weekly-schedule td {
+    border: 1px solid #ddd;
+}
+
+.weekly-schedule td:hover {
+    background-color: #f5f5f5;
+}

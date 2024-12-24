@@ -1,0 +1,64 @@
+/* Apply styling to the entire body */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #CBC3E3;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styling to the container within the body */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the headings within the container */
+.container h1 {
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.container h3 {
+    font-size: 24px;
+}
+
+.container h6 {
+    font-size: 18px;
+}
+
+/* Style the form elements */
+form label {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style the radio buttons */
+label.radio-inline {
+    margin: 0 10px;
+}
+
+/* Style the submit button */
+button.custom-btn-length {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Add more styles as needed for your specific design */
