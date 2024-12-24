@@ -125,6 +125,15 @@ git clone https://github.com/Buwaneka99/Online-Fitness-Trainer-WebSite.git
 
 ---
 
+## Contributors
+
+| Contributors  | GitHub Profile                                                      |
+|---------------|---------------------------------------------------------------------|
+| **Buwaneka**  | [Buwaneka99](https://github.com/Buwaneka99)                         |
+| **Janitha**   | [mju-premachandra](https://github.com/mju-premachandra)             |
+
+---
+
 ## License
 This project is licensed under the **MIT License**. See the **LICENSE** file for details.
 
