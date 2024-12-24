@@ -1,7 +1,7 @@
 # MLB-FITNESS - Online Fitness Trainer
 
 ## Project Overview
-**MLB-FITNESS** is an online fitness training platform developed by **Group01.1**. This web-based application enables users to maintain their physical health conveniently from home, guided by expert trainers. It is particularly beneficial for individuals with busy schedules who struggle to find time for gym sessions.
+**MLB-FITNESS** is an online fitness training platform developed by **Group 01.01_06**. This web-based application enables users to maintain their physical health conveniently from home, guided by expert trainers. It is particularly beneficial for individuals with busy schedules who struggle to find time for gym sessions.
 
 The platform offers a **premium feature** that allows users to interact with professional trainers, access personalized workout plans, and track their progress effectively.
 
@@ -127,6 +127,8 @@ git clone https://github.com/Buwaneka99/Online-Fitness-Trainer-WebSite.git
 
 ## Contributors
 
+The following members of **Group 01.01_06** contributed to the development of **MLB-FITNESS**:
+
 | Contributors  | GitHub Profile                                                      |
 |---------------|---------------------------------------------------------------------|
 | **Buwaneka**  | [Buwaneka99](https://github.com/Buwaneka99)                         |
@@ -141,6 +143,6 @@ This project is licensed under the **MIT License**. See the **LICENSE** file for
 
 ## Contact
 For further assistance or queries, contact:
-- **Developer**: Group01.1
+- **Developer**: Group 01.01_06
 - **GitHub Repository**: [MLB-FITNESS](https://github.com/Buwaneka99/Online-Fitness-Trainer-WebSite)
 
