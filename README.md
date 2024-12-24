@@ -9,6 +9,15 @@ The frontend of MLB-FITNESS is built using **HTML**, **CSS**, and **JavaScript**
 
 ---
 
+## Screenshots
+![Home Page](Screenshots/Home-page.png)
+
+![Login Page](Screenshots/use-login-page.png)
+
+![Home Page Fotter](Screenshots/Home-pahge.png)
+
+---
+
 ## Features
 - **User Registration and Login**: Users can register, log in, and manage their accounts. Premium memberships unlock additional features.
 - **Trainer Dashboard**: Trainers can add workout courses, upload videos, and manage their profiles.
@@ -30,8 +39,9 @@ MPBFitness/
  |     |----login_page.php                # User login page
  |     |----plan_select_page.html         # Premium plan selection
  |     |----JS/                           # JavaScript scripts
- |---Admin
+ |---admin
  |     |----connect.php                   # Admin database connection
+ |---Screenshots/                         # Website screenshots
  |---Styles/
  |     |----CSS/                          # Stylesheets
  |---images/                              # Image resources
@@ -76,7 +86,7 @@ git clone https://github.com/Buwaneka99/Online-Fitness-Trainer-WebSite.git
      $password = "";
      $database = "Online_Fitness_Trainer";
      ```
-2. Update the `connect.php` file in the `Admin` folder:
+2. Update the `connect.php` file in the `admin` folder:
      ```php
      $con = new mysqli('localhost', 'root', '', 'Online_Fitness_Trainer');
      ```
