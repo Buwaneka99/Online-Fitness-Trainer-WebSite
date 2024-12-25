@@ -143,6 +143,8 @@ The following members of **Group 01.01_06** contributed to the development of **
 |---------------|---------------------------------------------------------------------|
 | **Buwaneka**  | [Buwaneka99](https://github.com/Buwaneka99)                         |
 | **Janitha**   | [mju-premachandra](https://github.com/mju-premachandra)             |
+| **Dilmi**     | [DilmiJ](https://github.com/DilmiJ)                                 |
+| **Sakitha**   | [SakithaSamarathunga33](https://github.com/SakithaSamarathunga33)   |
 
 ---
 
