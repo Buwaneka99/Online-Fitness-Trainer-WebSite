@@ -18,7 +18,7 @@ The frontend of MLB-FITNESS is built using **HTML**, **CSS**, and **JavaScript**
 
 ---
 
-## Features
+## Key Features
 - **User Registration and Login**: Users can register, log in, and manage their accounts. Premium memberships unlock additional features.
 - **Trainer Dashboard**: Trainers can add workout courses, upload videos, and manage their profiles.
 - **Admin Panel**: Admins can add and manage trainers, monitor user payments, and oversee system activities.
