@@ -10,10 +10,14 @@ The frontend of MLB-FITNESS is built using **HTML**, **CSS**, and **JavaScript**
 ---
 
 ## Screenshots
+- Home
+  
 ![Home Page](Screenshots/Home-page.png)
+- Login
 
 ![Login Page](Screenshots/use-login-page.png)
-
+- Footer
+  
 ![Home Page Fotter](Screenshots/Home-pahge.png)
 
 ---
@@ -149,7 +153,7 @@ The following members of **Group 01.01_06** contributed to the development of **
 ---
 
 ## License
-This project is licensed under the **MIT License**. See the **LICENSE** file for details.
+This project is licensed under the **MIT License**. See the **[LICENSE](https://github.com/Buwaneka99/Online-Fitness-Trainer-WebSite/blob/main/LICENSE)** file for details.
 
 ---
 
