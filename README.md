@@ -30,7 +30,15 @@ The frontend of MLB-FITNESS is built using **HTML**, **CSS**, and **JavaScript**
 - **Feedback System**: Users can submit feedback about their experience, report issues, or provide suggestions.
 
 ---
-  
+
+ ## Technologies Used
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: PHP
+- **Database**: MySQL
+- **Server**: XAMPP
+
+---
+ 
 ## Table of Contents
 
 ```
@@ -131,24 +139,17 @@ git clone https://github.com/Buwaneka99/Online-Fitness-Trainer-WebSite.git
 
 ---
 
-## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: PHP
-- **Database**: MySQL
-- **Server**: XAMPP
-
----
-
 ## Contributors
 
 The following members of **Group 01.01_06** contributed to the development of **MLB-FITNESS**:
 
-| Contributors  | GitHub Profile                                                      |
-|---------------|---------------------------------------------------------------------|
-| **Buwaneka**  | [Buwaneka99](https://github.com/Buwaneka99)                         |
-| **Janitha**   | [mju-premachandra](https://github.com/mju-premachandra)             |
-| **Dilmi**     | [DilmiJ](https://github.com/DilmiJ)                                 |
-| **Sakitha**   | [SakithaSamarathunga33](https://github.com/SakithaSamarathunga33)   |
+| Contributors  | GitHub Profile                                                      |         Role                          |
+|---------------|---------------------------------------------------------------------|---------------------------------------|
+| **Buwaneka**  | [Buwaneka99](https://github.com/Buwaneka99)                         | Lead Developer                        |
+| **Janitha**   | [mju-premachandra](https://github.com/mju-premachandra)             | Backend Developer                     |
+| **Dilmi**     | [DilmiJ](https://github.com/DilmiJ)                                 | QA Engineer, Testing                  |
+| **Sakitha**   | [SakithaSamarathunga33](https://github.com/SakithaSamarathunga33)   |  Frontend Developer, UI/UX Design     |
+
 
 ---
 
@@ -159,6 +160,6 @@ This project is licensed under the **MIT License**. See the **[LICENSE](https://
 
 ## Contact
 For further assistance or queries, contact:
-- **Developer**: Group 01.01_06
+- **Developer**: Group 01.01_06 @ SLIIT
 - **GitHub Repository**: [MLB-FITNESS](https://github.com/Buwaneka99/Online-Fitness-Trainer-WebSite)
 
